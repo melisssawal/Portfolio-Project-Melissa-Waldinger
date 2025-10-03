@@ -1,3 +1,54 @@
 body {
-    background-color: rgb(2, 66, 47);
+
+}
+
+:root {
+--heading-font-family: "Schoolbell", cursive;
+--standard-text-font: "Klee One", cursive;
+--second-heading-font: "Josefin Slab", serif;
+--main-background-color: rgb(2, 66, 47);
+--second-background-color: rgb(205, 221, 216);
+}
+
+.top-welcome {
+    color: white;
+    font-family: var(--second-heading-font);
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+h1 {
+    padding: 5px;
+    color: white;
+    font-family: var(--heading-font-family);    
+    font-size: 54px;
+}
+
+hr {
+
+    border: 1px solid white;
+    border-radius: 10px;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+h4 {
+    font-size: 14px;
+    font-family: var(--standard-text-font);
+    color: white;
+    padding: 15px;
+}
+
+.main-classroom-img {
+max-width: 400px;
+padding: 5px;
+border-radius: 20px;
+}
+
+.hero {
+    background-color: var(--main-background-color);
+    text-align: center;
+    padding: 90px 40px;
 }
