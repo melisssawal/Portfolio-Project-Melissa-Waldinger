@@ -88,21 +88,43 @@ box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.1);
     padding: 70px 60px;
 }
 
-@media (max-width: 960px) {
+@media (min-width: 500px) {
+
     .user-description {
         text-align: center;
-        padding: 30px;
+        padding: 50px 10px;
+    }
+
+    .app-headings {
+        font-size: 80px;
+    }
+
+    .app-content {
+        text-align: center;
+        font-size: 30px;
+        line-height: 1.25;
+
+    }
+
+    .app-button {
+        font-size: 35px;
+    }
+
+    .top-welcome {
+        font-size: 30px;
     }
 
     .hero-h1 {
-        font-size: 44px;
+        font-size: 80px;
     }
 
     .hero {
-        padding: 70px 20px;
+        padding: 50px 10px;
     }
 
-    .main-classroom-img {
-        max-width: 300px;
+    .hero-h4 {
+        font-size: 30px;
     }
+
+   
 }
