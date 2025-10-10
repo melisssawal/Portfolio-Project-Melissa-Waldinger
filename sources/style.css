@@ -107,6 +107,10 @@ box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.1);
     padding: 20px 0px;
     margin-bottom: 70px;
 }
+
+.about-container {
+    margin: 50px;
+}
  .about-sections {
     text-align: center;
  }
@@ -144,7 +148,7 @@ button {
 
 /*Media Queiries*/
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
 
     .app-headings {
         font-size: 80px;
@@ -154,7 +158,6 @@ button {
         text-align: center;
         font-size: 30px;
         line-height: 1.25;
-
     }
 
     .app-button {
@@ -182,9 +185,32 @@ button {
         font-size: 30px;
     }
 
-.about-sections {
-    display: flex;
-    
-}
+    .hero-about {
+        padding: 60px 15px;
+     }
 
-}
+    .about-sections {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .h3-about {
+        font-size: 70px;
+    }
+
+    .col-md-3 {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+
+    .about-heading {
+        margin-top: 30px;
+        font-size: 40px;
+    }
+
+    .about-description {
+        font-size: 35px;
+    }
+
+
+    }
