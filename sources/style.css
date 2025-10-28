@@ -79,7 +79,7 @@ font-family: var(--standard-text-font);
 box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.1);
 }
 
-.teacher-img {
+.app-img {
     border-radius: 2px;
     margin: 60px 0px;
     width: 500px;
@@ -145,10 +145,53 @@ button {
         margin: 60px auto;
 }
 
+/*Work page CSS*/
+
+.container {
+    max-width: 95%
+}
+
+h4 {
+    font-family: var(--second-heading-font);
+    font-size: 40px;
+    text-align: left;
+    padding: 10px;
+    color: var(--main-background-color);
+}
+
+.app-display-container {
+    background: var(--main-background-color);
+    opacity: 80%;
+    color: white;
+    padding: 30px;
+    margin: 30px 0px 30px 200px;
+}
+
+.app-display-container-left {
+    background: var(--main-background-color);
+    opacity: 80%;
+    color: white;
+    padding: 30px;
+    margin: 30px 200px 30px 0px;
+}
+
+.work-app-img {
+    border: white solid 10px;
+}
+
+.work-app-headings {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--standard-text-font);
+}
+
+.work-app-content {
+    font-family: var(--standard-text-font);
+}
 
 /*Media Queiries*/
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 
     .app-headings {
         font-size: 80px;
@@ -211,6 +254,4 @@ button {
     .about-description {
         font-size: 35px;
     }
-
-
     }
