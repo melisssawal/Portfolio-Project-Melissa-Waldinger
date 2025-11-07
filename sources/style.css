@@ -148,14 +148,14 @@ button {
 /*Work page CSS*/
 
 .container {
-    max-width: 95%
+    max-width: 95%;
 }
 
 h4 {
     font-family: var(--second-heading-font);
     font-size: 40px;
     text-align: left;
-    padding: 10px;
+    padding: 30px;
     color: var(--main-background-color);
 }
 
@@ -164,15 +164,8 @@ h4 {
     opacity: 80%;
     color: white;
     padding: 30px;
-    margin: 30px 0px 30px 200px;
-}
-
-.app-display-container-left {
-    background: var(--main-background-color);
-    opacity: 80%;
-    color: white;
-    padding: 30px;
-    margin: 30px 200px 30px 0px;
+    margin: 30px 100px;
+    
 }
 
 .work-app-img {
@@ -191,8 +184,9 @@ h4 {
 
 /*Media Queiries*/
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 
+    /*Homepage Css*/
     .app-headings {
         font-size: 80px;
     }
@@ -223,7 +217,8 @@ h4 {
     .hero {
         padding: 50px 10px;
     }
-
+    
+        /*About-me page CSS*/
     .hero-h4 {
         font-size: 30px;
     }
@@ -254,4 +249,38 @@ h4 {
     .about-description {
         font-size: 35px;
     }
+
+        /*Work page CSS*/
+
+    h4 {
+        text-align: center;
+        font-size: 70px;
+    }
+
+   .container {
+       text-align: center;
+   }
+
+    .app-display-container {
+    background: var(--main-background-color);
+        opacity: 80%;
+        color: white;
+        padding: 30px;
+        margin: 30px 40px;
+    }
+
+    .work-app-headings {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: var(--standard-text-font);
+    }
+
+    .work-app-content {
+    font-size: 30px;
+        }
+
+    .work-app-description {
+        width: 100%;
+    }
+
     }
