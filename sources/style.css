@@ -11,6 +11,31 @@ body {
 --second-background-color: rgb(205, 221, 216);
 }
 
+a:visited {
+    text-decoration: none;
+}
+
+button:visited {
+    text-decoration: none;
+}
+
+/*Navbar*/
+
+.nav-container { 
+
+}
+
+.navbar-brand {
+    font-family: var(--heading-font-family);
+    font-size: 25px;
+    color: var(--main-background-color);
+}
+
+.navbar-nav {
+    font-family: var(--standard-text-font);
+    color: var(--main-background-color);
+}
+
 /*Homepage Css*/
 .top-welcome {
     color: white;
@@ -41,6 +66,7 @@ hr {
     font-family: var(--standard-text-font);
     color: white;
     padding: 15px;
+    text-align: center;
 }
 
 .main-classroom-img {
@@ -182,6 +208,15 @@ h4 {
     font-family: var(--standard-text-font);
 }
 
+.work-page-button {
+    background-color: var(--second-background-color);
+        color: var(--main-background-color);
+        border: none;
+        border-radius: 3px;
+        padding: 15px;
+        font-family: var(--standard-text-font);
+        box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.1);
+}
 /*Media Queiries*/
 
 @media (max-width: 1000px) {
