@@ -11,14 +11,6 @@ body {
 --second-background-color: rgb(205, 221, 216);
 }
 
-a:visited {
-    text-decoration: none;
-}
-
-button:visited {
-    text-decoration: none;
-}
-
 /*Navbar*/
 
 .nav-container { 
@@ -88,7 +80,7 @@ font-family: var(--second-heading-font);
 }
 
 .app-content {
-    font-size: 12px;
+    font-size: 16px;
     font-family: var(--standard-text-font);
     padding: 10px;
     line-height: 1.75;
@@ -98,9 +90,10 @@ font-family: var(--second-heading-font);
 .app-button {
 background-color: var(--main-background-color);
 color: white;
+font-size: 18px;
 border: none;
-border-radius: 3px;
-padding: 15px;
+border-radius: 5px;
+padding: 20px 60px;
 font-family: var(--standard-text-font);
 box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.1);
 }
@@ -212,8 +205,8 @@ h4 {
     background-color: var(--second-background-color);
         color: var(--main-background-color);
         border: none;
-        border-radius: 3px;
-        padding: 15px;
+        border-radius: 5px;
+        padding: 20px;
         font-family: var(--standard-text-font);
         box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.1);
 }
