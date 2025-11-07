@@ -13,10 +13,6 @@ body {
 
 /*Navbar*/
 
-.nav-container { 
-
-}
-
 .navbar-brand {
     font-family: var(--heading-font-family);
     font-size: 25px;
@@ -156,7 +152,7 @@ button {
     background-color: var(--main-background-color);
         color: white;
         border: none;
-        border-radius: 3px;
+        border-radius: 5px;
         padding: 15px;
         font-family: var(--standard-text-font);
         box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.1);
@@ -285,6 +281,11 @@ h4 {
         font-size: 70px;
     }
 
+    button {
+        font-size: 40px;
+        padding: 35px;
+    }
+
    .container {
        text-align: center;
    }
@@ -298,7 +299,7 @@ h4 {
     }
 
     .work-app-headings {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     font-family: var(--standard-text-font);
     }
