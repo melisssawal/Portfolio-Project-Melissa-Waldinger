@@ -330,4 +330,14 @@ h3 {
         width: 100%;
     }
 
+    /*Contact Page*/
+
+    h3 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
     }
