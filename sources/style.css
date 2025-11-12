@@ -26,6 +26,15 @@ a {
 .navbar-nav {
     font-family: var(--standard-text-font);
     color: var(--main-background-color);
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0px 15px;
+}
+
+.active {
+    color: rgb(154, 167, 163) !important;
 }
 
 /*Homepage Css*/
